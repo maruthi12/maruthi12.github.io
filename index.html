@@ -1,8 +1,42 @@
 <html>
 <head>
 <title>portfolio</title>
+<style type="text/css">
+
+body { 
+background-image:url(Untitled-6.jpg);
+background-repeat: no-repeat; 
+}
+img {
+  max-width: 100%;
+}
+.image {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+.image .dialog-image {
+	opacity: 0;
+	transition: opacity 300ms;
+	position: absolute;
+	top: -33px;
+	right: -65px;
+	width: 347px;
+	height: 228px;
+}
+.image:hover .dialog-image {
+  opacity: 1;
+}
+
+</style>
 </head>
+
 <body>
-<h1>Coming soon!!!</h1>
+<div class="image">
+  <p>&nbsp;</p>
+  <p><img src="../can-stock-photo_csp17988854.png" width="311" height="591" alt="it's me"></p>
+<p>&nbsp;</p>
+ <div class="dialog-image"><img src="../images (1).png" alt="" width="308" height="164"></div>
+</div>
 </body>
 </html>
